@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "Shaina2013Walker",
+  password: "",
   database: "bamazon"
 });
 
@@ -39,11 +39,10 @@ var bamazon = {
 
     sales: function() {
         var query = connection.query(
-            "select * from departments",
+            "SELECT departments.department_id, departments.department_name, departments.over_head_cost, products.product_sales, products.product_sales - departments.over_head_cost AS total_profit FROM departments INNER JOIN products ON departments.department_name = products.department_name order by departments.department_id",
             function(err, res) {
-                // updateProdcut();
+                //this displays a table
                 console.table(res)
-                // bamazon.supervisor()
             }
         )
     },
