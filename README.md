@@ -1,9 +1,9 @@
 This is Bamazon
 
-![alt text](http://url/to/img.png)
+![Step 1 visualized].com/Mrashes/bamazon/master/Week12%20pics/Start.png)
 
-![alt text](http://url/to/img.png)
+![Step 2 visualized](https://raw.githubusercontent.com/Mrashes/bamazon/master/Week12%20pics/2.png)
 
-![alt text](http://url/to/img.png)
+![Step 3 visualized](https://raw.githubusercontent.com/Mrashes/bamazon/master/Week12%20pics/3.png)
 
-![alt text](http://url/to/img.png)
+![Step 4 visualized](https://raw.githubusercontent.com/Mrashes/bamazon/master/Week12%20pics/4.png)
